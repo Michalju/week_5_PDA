@@ -25,7 +25,7 @@ class CardGame: # __init__ missing
    
 
   dif highest_card(self, card1 card2): # coma after card1 missing. should be def as opposed to dif before function name
-  if card1.value > card2.value:
+  if card1.value > card2.value: # indentaiton issue
     return card # should be car1 as opposed ot card
   else:
     return card2
