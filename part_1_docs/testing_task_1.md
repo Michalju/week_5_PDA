@@ -11,31 +11,31 @@ Thinking that methods should be renamed or should be class level, or using strin
 These aren't errors but rather standards that vary from developer to developer. 
 
 Only comment on errors that would stop the tests running.
+ 
+```python 
 
-```python
-
-class CardGame: 
+class CardGame: # __init__ missing
 
 
   def check_for_ace(self, card):
-    if card.value = 1: 
+    if card.value = 1: # double = as opposed to single required for comparison
       return True
-    else  
+    else  #colon missing
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): # coma after card1 missing. should be def as opposed to dif before function name
   if card1.value > card2.value:
-    return card
+    return card # should be car1 as opposed ot card
   else:
     return card2
   
 
 
-def cards_total(self, cards):
-  total
+def cards_total(self, cards): # indentation issue
+  total# total shall be initiated with value 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total# indentation issue
   
-```
+``` # these symbols should not be here
